@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPx.OperationTask", "WebPx.OperationTask\WebPx.OperationTask.csproj", "{7E087502-BFE5-4314-9529-9FD3427A4223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPx.OperationTask.Tests", "WebPx.OperationTask.Tests\WebPx.OperationTask.Tests.csproj", "{0998EA7E-432C-42BD-BD44-E95CB1989D7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E087502-BFE5-4314-9529-9FD3427A4223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E087502-BFE5-4314-9529-9FD3427A4223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E087502-BFE5-4314-9529-9FD3427A4223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E087502-BFE5-4314-9529-9FD3427A4223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0998EA7E-432C-42BD-BD44-E95CB1989D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0998EA7E-432C-42BD-BD44-E95CB1989D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0998EA7E-432C-42BD-BD44-E95CB1989D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0998EA7E-432C-42BD-BD44-E95CB1989D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BCC042C-E501-4A86-B671-E3B44D992CC8}
+	EndGlobalSection
+EndGlobal
