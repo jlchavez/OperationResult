@@ -40,7 +40,11 @@ namespace WebPx.Tests
         {
             var scopeId = OperationScope.Current.Id;
             SayHello("Calling async method");
-            await AsyncStep1();
+            using (var scope = OperationScope.Push())
+            {
+                SayHello("Emulating another scope");
+                await AsyncStep1();
+            }
             SayHello("Back from async method");
             Assert.AreEqual(scopeId, OperationScope.Current.Id);
             Console.WriteLine("Success");

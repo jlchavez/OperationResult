@@ -31,6 +31,7 @@ namespace WebPx.Tests
 
         private async OperationTask AsyncStep3()
         {
+            SayHello($"{nameof(AsyncStep3)} Pushing new scope");
             using var scope = OperationScope.Push();
             SayHello($"{nameof(AsyncStep3)} Start");
             await Task.Delay(10);
